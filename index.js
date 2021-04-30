@@ -9,3 +9,13 @@ function upperCaseCustomerName() { // modifies the customerName variable
 function setBestCustomer() {
     bestCustomer = 'not bob' // setBestCustomer
 }
+
+function overwriteBestCustomer() {
+    bestCustomer = 'maybe bob' 
+}
+
+const leastFavoriteCustomer = 'is not defined'
+
+function changeLeastFavoriteCustomer() {
+    leastFavoriteCustomer = 'is not defined'
+}
